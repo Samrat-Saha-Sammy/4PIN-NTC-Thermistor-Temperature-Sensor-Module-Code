@@ -14,7 +14,7 @@ This module includes a NTC Thermistor - its resistance falls with higher tempera
 <strong>Analog Out (AO)</strong>: Direct measurement of the sensor unit.<br>
 
 <strong>LED1 (PWR)</strong>: Shows that the sensor is receiving power. <br>
-<strong>LED2 (OUT)</strong>: Shows that a magnetic field was detected. <br>
+<strong>LED2 (OUT)</strong>: Shows that a digital high was detected. <br>
 
 <strong>Operating voltage (Vcc)</strong>: 3.3 ~ 5(volt)<br>
 <strong>Temperature sense range</strong> : -25 ~ 80(°C) <br>
