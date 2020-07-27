@@ -5,7 +5,8 @@ NTC Thermistor temperature sensor module is low cost, small size module. It is v
 
 
 ## Picture 
-
+![Preview1](./images/module-front.png)
+![Preview1](./images/module-back.png)
 
 ## Technical data / Short description
 This module includes a NTC Thermistor - its resistance falls with higher temperature.<br>
@@ -17,8 +18,9 @@ This module includes a NTC Thermistor - its resistance falls with higher tempera
 
 <strong>Operating voltage (Vcc)</strong>: 3.3 ~ 5(volt)<br>
 <strong>Temperature sense range</strong> : -25 ~ 80(°C) <br>
-## Pinout
 
+## Pinout
+![Preview3](./images/pinout-image.png)
 
 ## Functionality of the sensor
 
