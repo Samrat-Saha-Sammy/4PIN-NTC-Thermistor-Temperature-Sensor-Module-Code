@@ -6,7 +6,7 @@ NTC Thermistor temperature sensor module is low cost, small size module. It is v
 
 ## Picture 
 ![Preview1](./images/module-front.png)
-![Preview1](./images/module-back.png)
+![Preview2](./images/module-back.png)
 
 ## Technical data / Short description
 This module includes a NTC Thermistor - its resistance falls with higher temperature.<br>
