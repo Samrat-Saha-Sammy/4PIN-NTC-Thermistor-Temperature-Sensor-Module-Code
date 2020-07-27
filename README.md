@@ -5,12 +5,10 @@ NTC Thermistor temperature sensor module is low cost, small size module. It is v
 
 
 ## Picture 
-<hr>
 
 
 ## Technical data / Short description
-<hr>
-Temperature measurement range: -25°C / +80°C This module includes a NTC Thermistor - its resistance falls with higher temperature.<br>
+This module includes a NTC Thermistor - its resistance falls with higher temperature.<br>
 <strong>Digital Out (DO)</strong>: While measuring a temperature which is higher than the limit value, it will be shown here - you can set the limit value via potentiometer.<br>
 <strong>Analog Out (AO)</strong>: Direct measurement of the sensor unit.<br>
 
@@ -20,15 +18,14 @@ Temperature measurement range: -25°C / +80°C This module includes a NTC Thermi
 <strong>Operating voltage (Vcc)</strong>: 3.3 ~ 5(volt)<br>
 <strong>Temperature sense range</strong> : -25 ~ 80(°C) <br>
 ## Pinout
-<hr>
 
 
 ## Functionality of the sensor
-<hr>
+
 
 ## Code example Arduino
-<hr>
+
 
 ## Code Explaination
-<hr>
+
 
