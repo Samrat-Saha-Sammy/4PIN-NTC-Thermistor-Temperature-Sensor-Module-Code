@@ -1,7 +1,10 @@
 
-int Analog_PIN = A0; // Analog PIN
-int Digital_PIN = 3; // Digital PIN
-  
+int Analog_PIN = A0; // Analog PIN A0
+int Digital_PIN = 3; // Digital PIN 3
+
+int Min_Temperature = -25;
+int Max_Temperature = 80;
+
 void setup ()
 {
   pinMode (Analog_PIN, INPUT);
@@ -19,9 +22,11 @@ void loop ()
   float Tc;
   int Digital;
 
+  int Temp_Range = (abs(Min_Temperature) + abs(Max_Temperature));
+
   Analog = analogRead(Analog_PIN);   
-  Tf = Analog * (95 / 1023.0); // -25 ~ 80
-  Tc = (Tf - 32) * 5/9;
+  Tf = Analog * (Temp_Range / 1023.0); // 0 - 1023 is Default Arduino 10 bit resolution for A/D Converter, https://www.arduino.cc/en/Tutorial/AnalogInputPins
+  Tc = (Tf - 32) * 5/9; // Fahrenheit to Celsius Formula (32°F − 32) × 5/9 = 0°C
   Digital = digitalRead (Digital_PIN);
     
   //... and outputted here
